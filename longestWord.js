@@ -7,7 +7,6 @@ le plus long d'une chaine de caractère.
 const longestWord = (str) =>{
     let strArr = str.split(' ');
     let longWord = [];
-    let word = []
     for(let i=0; i<strArr.length; i++){
         longWord.push(strArr[i].length)
         //console.log(longWord);
